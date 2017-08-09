@@ -24,7 +24,7 @@ def main():
     # %c = locale control code, %x = locale date, %X locales time
     print(now.strftime("%c \n%x \n%X"))
 
-    # #### Time Formtatting ####
+    # #### Time Formatting ####
 
     # %I/%H - 12/24hr, %M - minute, %S - second, %p locales AM/PM
     print(now.strftime("%I:%M:%S %p"))

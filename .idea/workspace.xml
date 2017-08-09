@@ -15,10 +15,12 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/StudyMaterials$classes.coverage" NAME="classes Coverage Results" MODIFIED="1502157109158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2" />
+    <SUITE FILE_PATH="coverage/StudyMaterials$calenders.coverage" NAME="calenders Coverage Results" MODIFIED="1502263223142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
     <SUITE FILE_PATH="coverage/StudyMaterials$date_formating.coverage" NAME="date_formating Coverage Results" MODIFIED="1502259724987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
     <SUITE FILE_PATH="coverage/StudyMaterials$conditionals.coverage" NAME="conditionals Coverage Results" MODIFIED="1502155763454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2" />
     <SUITE FILE_PATH="coverage/StudyMaterials$imports_libraries_etc.coverage" NAME="imports_libraries_etc Coverage Results" MODIFIED="1502258273204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
     <SUITE FILE_PATH="coverage/StudyMaterials$learning_python.coverage" NAME="learning_python Coverage Results" MODIFIED="1502154561808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython" />
+    <SUITE FILE_PATH="coverage/StudyMaterials$time_delta_objects.coverage" NAME="time_delta_objects Coverage Results" MODIFIED="1502262017198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,7 +36,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding />
+              <folding>
+                <marker date="1502155635000" expanded="true" signature="835:921" placeholder="..." />
+                <marker date="1502155635000" expanded="true" signature="995:1135" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,11 +86,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="date_formating.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="date_formating.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/date_formating.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_delta_objects.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/time_delta_objects.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+              <folding>
+                <element signature="e#80#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calenders.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/calenders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,6 +137,8 @@
         <option value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2/classes.py" />
         <option value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/imports_libraries_etc.py" />
         <option value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/date_formating.py" />
+        <option value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/time_delta_objects.py" />
+        <option value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/calenders.py" />
       </list>
     </option>
   </component>
@@ -250,43 +279,7 @@
       <recent name="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.date_formating">
-    <configuration default="false" name="learning_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LyndaStudy/LearningPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StudyMaterials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2/functions_variables_expressions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="conditionals" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StudyMaterials" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 2/conditionals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.calenders">
     <configuration default="false" name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,6 +330,42 @@
       <module name="StudyMaterials" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/date_formating.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="time_delta_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StudyMaterials" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/time_delta_objects.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="calenders" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StudyMaterials" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/calenders.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -544,19 +573,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.learning_python" />
-      <item index="1" class="java.lang.String" itemvalue="Python.conditionals" />
-      <item index="2" class="java.lang.String" itemvalue="Python.classes" />
-      <item index="3" class="java.lang.String" itemvalue="Python.imports_libraries_etc" />
-      <item index="4" class="java.lang.String" itemvalue="Python.date_formating" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.imports_libraries_etc" />
+      <item index="2" class="java.lang.String" itemvalue="Python.date_formating" />
+      <item index="3" class="java.lang.String" itemvalue="Python.time_delta_objects" />
+      <item index="4" class="java.lang.String" itemvalue="Python.calenders" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.date_formating" />
-        <item index="1" class="java.lang.String" itemvalue="Python.imports_libraries_etc" />
-        <item index="2" class="java.lang.String" itemvalue="Python.classes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.conditionals" />
-        <item index="4" class="java.lang.String" itemvalue="Python.learning_python" />
+        <item index="0" class="java.lang.String" itemvalue="Python.calenders" />
+        <item index="1" class="java.lang.String" itemvalue="Python.time_delta_objects" />
+        <item index="2" class="java.lang.String" itemvalue="Python.date_formating" />
+        <item index="3" class="java.lang.String" itemvalue="Python.imports_libraries_etc" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classes" />
       </list>
     </recent_temporary>
   </component>
@@ -575,15 +604,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="41" width="1007" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25492227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25492227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -609,7 +638,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
+          <folding>
+            <marker date="1502155635000" expanded="true" signature="835:921" placeholder="..." />
+            <marker date="1502155635000" expanded="true" signature="995:1135" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,8 +681,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/date_formating.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/time_delta_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+          <folding>
+            <element signature="e#80#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LyndaStudy/LearningPython/Chapter 3/calenders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
