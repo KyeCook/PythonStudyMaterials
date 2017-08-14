@@ -14,16 +14,16 @@ def main():
         print(x)
         x =+ 1
 
-    # Defining a for loop
+        # Defining a for loop
         for x in range(5,10):
             print(x)
 
-    # Looping over a collection (array, list etc.)
+            # Looping over a collection (array, list etc.)
         days = ["mon", "tues", "wed", "thurs", "fri", "sat", "sun"]
         for d in days:
             print(d)
 
-    # Using break and continue in loops
+            # Using break and continue in loops
         for x in range(5, 10):
             if(x==7):
                 break
@@ -31,11 +31,11 @@ def main():
                 continue
             print(x)
 
-    # Using enumerate() to get index
+            # Using enumerate() to get index
+
         days = ["mon", "tues", "wed", "thurs", "fri", "sat", "sun"]
         for i, d in enumerate(days):
             print(i, d)
-
 
 if __name__ == "__main__":
     main()
